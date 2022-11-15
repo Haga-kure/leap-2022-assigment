@@ -119,14 +119,24 @@ footer a {
     width: 170px;
 }
 
-@media screen and (min-width:601px) and (max-width:1220px) { 
+@media screen and (min-width:601px) and (max-width:1220px) {
     .row>* {
         width: 50%;
     }
 }
 
-@media screen and (max-width:600px) { 
+@media screen and (max-width:600px) {
     .row>* {
         width: 100%;
     }
+
+    header ul li.bars {
+        display:block;
+    }
+
+    .nav ul li {
+        display: none;
+    }
 }
+
+
