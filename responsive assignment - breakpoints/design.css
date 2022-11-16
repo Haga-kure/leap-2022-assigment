@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+   margin: 0 auto;
+   padding-top: 468px;
+  
+}
+
+@media screen and (min-width:1400px) {
+    body {
+        background-color:red ;
+    }
+    .xxl {
+      display: block; 
+    }
+
+    .xl {
+        display: none; 
+      }
+
+    .l {
+        display: none; 
+      }
+
+    .m {
+        display: none; 
+      }
+
+    .sm {
+        display: none; 
+      }
+      .xs {
+        display: none; 
+      }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399px) {
+    body {
+        background-color:rgb(141, 40, 40) ;
+    }
+    .xxl {
+      display: none; 
+    }
+
+    .xl {
+        display: block; 
+      }
+
+    .l {
+        display: none; 
+      }
+
+    .m {
+        display: none; 
+      }
+
+    .sm {
+        display: none; 
+      }
+      .xs {
+        display: none; 
+      }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+    body {
+        background-color:rgb(0, 0, 255) ;
+    }
+    .xxl {
+      display: none; 
+    }
+
+    .xl {
+        display: none; 
+      }
+
+    .l {
+        display: block; 
+      }
+
+    .m {
+        display: none; 
+      }
+
+    .sm {
+        display: none; 
+      }
+      .xs {
+        display: none; 
+      }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        background-color:pink ;
+    }
+    .xxl {
+      display: none; 
+    }
+
+    .xl {
+        display: none; 
+      }
+
+    .l {
+        display: none; 
+      }
+
+    .m {
+        display: block; 
+      }
+
+    .sm {
+        display: none; 
+      }
+      .xs {
+        display: none; 
+      }
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+    body {
+        background-color:cyan;
+    }
+    .xxl {
+      display: none; 
+    }
+
+    .xl {
+        display: none; 
+      }
+
+    .l {
+        display: none; 
+      }
+
+    .m {
+        display: none; 
+      }
+
+    .sm {
+        display: block; 
+      }
+      .xs {
+        display: none; 
+      }
+}
+
+@media screen and (max-width:575px) {
+    body {
+        background-color:green;
+    }
+    .xxl {
+      display: none; 
+    }
+
+    .xl {
+        display: none; 
+      }
+
+    .l {
+        display: none; 
+      }
+
+    .m {
+        display: none; 
+      }
+
+    .sm {
+        display: none; 
+      }
+      .xs {
+        display: block; 
+      }
+}
+
