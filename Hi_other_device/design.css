@@ -1,0 +1,57 @@
+@media screen and (min-width:1024px) {
+    body {
+        background-color: rgba(0, 0, 255, 0.513);
+    }
+    box::after {
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 50px;
+        content:"Web 1024px---> ";
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1023px) {
+    body {
+        background-color: rgba(256, 0, 0, 0.513);
+    }
+    box::after {
+        padding: 20px;
+        border: 1px solid black;
+        border-radius: 25px;
+        content:"Tablet 768px---> 1024px ";
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:768px) {
+    body {
+        background-color: rgba(0, 168, 0, 0.513);
+    }
+    box::after {
+        padding: 20px;
+        border: 1px solid black;
+        content:"Tablet 768px---> 1024px ";
+    }
+}
+
+.web-text {
+    border: 2px solid black;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    padding: 10px ;
+    align-self: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 304px;
+    
+}
+
+.web-img {
+    align-self: center;
+}
