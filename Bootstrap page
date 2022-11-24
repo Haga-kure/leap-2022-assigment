@@ -101,7 +101,7 @@
         </div>
       </div>
     </main>
-    <table class="table container">
+    <table class="table table-bordered container">
       <thead>
         <tr>
           <th scope="col">#</th>
@@ -124,13 +124,13 @@
           <td>mark.otto@email.com</td>
           <td>$ 123.000.000</td>
           <td>
-            <a href="#" class="text-white bg-primary p-1 border rounded-2"
+            <a href="#" class="text-white bg-primary p-1 pt-0 border rounded-2"
               ><i class="bi bi-eye"></i
             ></a>
-            <a href="#" class="text-white bg-success p-1 border rounded-2"
+            <a href="#" class="text-white bg-success p-1 pt-0 border rounded-2"
               ><i class="bi bi-pencil-square"></i
             ></a>
-            <a href="#" class="text-white bg-danger p-1 border rounded-2"
+            <a href="#" class="text-white bg-danger p-1 pt-0 border rounded-2"
               ><i class="bi bi-trash"></i
             ></a>
           </td>
@@ -145,16 +145,16 @@
             <td>mark.otto@email.com</td>
             <td>$ 456.000.000</td>
             <td>
-              <a href="#" class="text-white bg-primary p-1 border rounded-2"
-                ><i class="bi bi-eye"></i
-              ></a>
-              <a href="#" class="text-white bg-success p-1 border rounded-2"
-                ><i class="bi bi-pencil-square"></i
-              ></a>
-              <a href="#" class="text-white bg-danger p-1 border rounded-2"
-                ><i class="bi bi-trash"></i
-              ></a>
-            </td>
+                <a href="#" class="text-white bg-primary p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-eye"></i
+                ></a>
+                <a href="#" class="text-white bg-success p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-pencil-square"></i
+                ></a>
+                <a href="#" class="text-white bg-danger p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-trash"></i
+                ></a>
+              </td>
         </tr>
         <tr>
             <th scope="row">3</th>
@@ -165,16 +165,16 @@
             <td>stark.Thompson@email.com</td>
             <td>$ 789.000.000</td>
             <td>
-              <a href="#" class="text-white bg-primary p-1 border rounded-2"
-                ><i class="bi bi-eye"></i
-              ></a>
-              <a href="#" class="text-white bg-success p-1 border rounded-2"
-                ><i class="bi bi-pencil-square"></i
-              ></a>
-              <a href="#" class="text-white bg-danger p-1 border rounded-2"
-                ><i class="bi bi-trash"></i
-              ></a>
-            </td>
+                <a href="#" class="text-white bg-primary p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-eye"></i
+                ></a>
+                <a href="#" class="text-white bg-success p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-pencil-square"></i
+                ></a>
+                <a href="#" class="text-white bg-danger p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-trash"></i
+                ></a>
+              </td>
         </tr>
         <tr>
             <th scope="row">4</th>
@@ -185,16 +185,16 @@
             <td>steve.jobs@email.com</td>
             <td>$ 999.000.000</td>
             <td>
-              <a href="#" class="text-white bg-primary p-1 border rounded-2"
-                ><i class="bi bi-eye"></i
-              ></a>
-              <a href="#" class="text-white bg-success p-1 border rounded-2"
-                ><i class="bi bi-pencil-square"></i
-              ></a>
-              <a href="#" class="text-white bg-danger p-1 border rounded-2"
-                ><i class="bi bi-trash"></i
-              ></a>
-            </td>
+                <a href="#" class="text-white bg-primary p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-eye"></i
+                ></a>
+                <a href="#" class="text-white bg-success p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-pencil-square"></i
+                ></a>
+                <a href="#" class="text-white bg-danger p-1 pt-0 border rounded-2"
+                  ><i class="bi bi-trash"></i
+                ></a>
+              </td>
         </tr>
       </tbody>
     </table>
