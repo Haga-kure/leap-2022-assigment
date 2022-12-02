@@ -8,19 +8,25 @@
   </head>
   <body>
     <script>
-      let n = Math.floor(Math.random() * 100);
       a = "таны оруулсан тоо их байна";
       b = "таны оруулсан тоо бага байна";
       c = "таны оруулсан тоо зөв байна";
       random = prompt("1-100 ийн хооронд random тоо оруулан уу? ");
-      console.log(n);
-      if (random > n) {
-        console.log(a);
-      } else if (random < n) {
-        console.log(b);
-      } else if ((random = 0)) {
-        console.log(c);
+      let n = Math.floor(Math.random() * 100);
+      while (random == n) {
+        n = Math.floor(Math.random() * 100);
+        // console.log(a);
+        console.log(+random, n);
+        break;
       }
+      console.log(n);
+      // if (random < n) {
+      //   console.log(b);
+      // }
+      // if ((random = 0)) {
+      //   console.log(c);
+
+      // }
     </script>
   </body>
 </html>

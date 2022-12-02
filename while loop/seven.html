@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigment</title>
+  </head>
+  <body>
+    <script>
+      const a = 1;
+      let b = 20;
+      let n = 2;
+      anhniiTooMun = true;
+      debugger;
+      for (let i = 5; i <= 20; i++) {
+        // 5  2 3 4
+        n = 2;
+        anhniiTooMun = true;
+        while (n < i) {
+          if (i % n != 0) {
+            anhniiTooMun = true;
+            n++;
+          } else {
+            anhniiTooMun = false;
+            break;
+          }
+        }
+        if (anhniiTooMun == true) {
+          console.log(i);
+        }
+      }
+    </script>
+  </body>
+</html>
