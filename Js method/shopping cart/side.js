@@ -1,0 +1,13 @@
+console.log(1);
+const shoppingCart = ["Milk", "Coffee", "Tea", "Honey"];
+shoppingCart.unshift("Meat");
+console.log(shoppingCart);
+console.log(2);
+const count = shoppingCart.push("Sugar");
+console.log(shoppingCart);
+console.log(3);
+shoppingCart.splice(4, 1);
+console.log(shoppingCart);
+console.log(4);
+shoppingCart.splice(3, 1, "Green Tea");
+console.log(shoppingCart);
