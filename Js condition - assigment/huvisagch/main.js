@@ -24,16 +24,16 @@ let l = 2;
 let i = 4;
 let niit = 0;
 if (j < 5) {
-  niit *= a;
+  niit *= j;
 }
 if (k < 5) {
-  niit *= b;
+  niit *= k;
 }
 if (l < 5) {
-  niit *= c;
+  niit *= l;
 }
 if (i < 5) {
-  niit *= d;
+  niit *= i;
 }
 
 console.log(niit);
