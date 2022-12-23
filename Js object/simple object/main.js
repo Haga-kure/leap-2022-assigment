@@ -15,4 +15,4 @@ dog.from = "Germany";
 dog.color = " white";
 dog.age = "2";
 dog.type = "Big and smart";
-console.log(dog);
+console.log(value``);
